@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.heading {
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+
+.underline {
+    width: 90px;
+    margin-top: 6px;
+    border-bottom: 5px solid #49A6E9;
+}
+
+.container {
+    position: relative;
+    margin-top: 10vh;
+    max-height: 65vh;
+    min-height: 50vh;
+    max-width: 600px;
+    width: 80vw;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px lightgray;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.profile {
+    padding: 15px;
+}
+
+.main-img {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: #49A6E9;
+    margin-bottom: 10px;
+    position: absolute;
+    /* transform: translateY(150px); */
+    transform: translate(6px, -6px);
+}
+
+img {
+    height: 138px;
+    width: 138px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.quotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transform: translate(-50px, -125px);
+    height: 35px;
+    width: 35px;
+    background-color: #49A6E9;
+    border-radius: 50%;
+
+}
+
+.q-bkgr {
+    font-family: 'BIZ UDPGothic', sans-serif;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: 15px;
+}
+
+.name {
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: larger;
+}
+
+.profession {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: x-small;
+    margin: 5px;
+    color: #49A6E9;
+}
+
+.description {
+    text-align: center;
+
+}
+
+.justify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.nav-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    width: 50px;
+    font-size: 25px;
+    color: #49A6E9;
+}
+
+#prev:hover {
+    cursor: pointer;
+    font-size: 28px;
+    color: #49A6E9;
+    font-weight: bold;
+}
+
+#next:hover {
+    cursor: pointer;
+    font-size: 28px;
+    color: #49A6E9;
+    font-weight: bold;
+}
+
+.btn {
+    font-size: .7 rem;
+    color: #49A6E9;
+    margin-top: 5px;
+    padding: 2px;
+    border: 1px solid #49A6E9;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #49A6E9;
+    color: white;
+}
